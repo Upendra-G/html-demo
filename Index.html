@@ -3,26 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> w3c 1st copy </title>
+    <title>Application form</title>
 </head>
 <body>
-    <img src ="https://www.w3.org/assets/logos/w3c/w3c-no-bars.svg">
+    <h1 style="text-align: center;">MY FORMS</h1>
+    <fieldset>
+        <legend>login form</legend> 
+        enter name: <input type="text" name="username">l
+        <br>
+        <br>
+        password: <input type="password" name="password">
+    </fieldset>
+    <div>
+           <span> <input type="submit"></span>
+            <span><input type="reset"></span>  
+            
     
-    <h1>A Little History of the World Wide Web</h1>
+    </div>
 
-    <p>
-        <em>See also <a href = "https://www.w3.org/2004/Talks/w3c10-HowItAllStarted/">How It All Started</a> presentation materials from the<a href = "https://www.w3.org/2004/09/W3C10.html">W3C 10th Anniversary Celebration</a> and<a href = >other references.</a></em>
-        <br>
-        <br>
-        from 1945 to 1995
-        <br>
-        <br>
-        <h3>1945</h3>
-        Vannevar Bush writes<a href = "https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/"> an artical</a> in <a href = "https://www.theatlantic.com/world/">Atlanic Monthly</a> about a photo-electrical-mechanical device called a Memex, for memory extension, which could make and follow links between documents on microfiche
-        <hr></hr>
-        <br>
-        <br>
-        <h3>1960s</h3>
-    </p>
+    <div>
+        <label for="lnam">Last name:</label>
+        <input type="text" id="lnam"  value="patel" placeholder="enter your last name" name="lname"/>
+    </div>
+    <div>
+        <label for="fname">first name</label>
+        <input type="text" id="fname" placeholder="enter first name" name="lname">
+    </div>
+    <div>
+        <input type="checkbox" name="skills" value="html" id="c1"><label for="c1">HTML</label>
+        <input type="checkbox" name="skills" value="css" id="c3"><label for="c3">CSS</label>
+        <input type="checkbox" name="skills1" value="js" id="c2"><label for="c2">JS</label>
+    </div>
+    <div>
+        <label for="">Choose Gender</label>
+            <select name="genderr" id="">
+                <option value="m">Male</option>
+                <option value="f">Female</option>
+                <option value="others">Others</option>
+
+
+    </div>
+    <div>
+    <input type="text" data-role="i123-input" data-no-theme aria-labelledby="text-0000000c-acc text-0000000c-error-acc text-0000000c-instr-acc" id="text-0000000c" placeholder style="padding-left: 8px;">
+    </div>
 </body>
 </html>
